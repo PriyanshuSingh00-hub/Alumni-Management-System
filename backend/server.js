@@ -20,7 +20,7 @@ const CLIENT_ORIGINS=[
     'http://localhost:5173',
     'https://alumni-management-system-frontend.onrender.com',
     process.env.FRONTEND_URL || 'http://localhost:5173'
-    // add vercel api here
+    // add vercel api here.
 ];
 
 app.use(cors({ origin: CLIENT_ORIGINS, methods: ['GET','POST','PUT','PATCH','DELETE'], credentials: true }));
